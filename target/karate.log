@@ -1,0 +1,200 @@
+09:45:15.340 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:45:16.042 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:45:16.476 [main] DEBUG com.intuit.karate - request:
+1 > POST https://tek-insurance.azurewebsites.net/api/token
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 39
+1 > Host: tek-insurance.azurewebsites.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"admin"}
+
+09:45:17.246 [main] DEBUG com.intuit.karate - response time in milliseconds: 767
+1 < 404
+1 < Content-Length: 103
+1 < Content-Type: text/html
+1 < Date: Sun, 17 Jul 2022 16:45:14 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Set-Cookie: ARRAffinity=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+1 < Set-Cookie: ARRAffinitySameSite=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+
+09:45:17.251 [main] ERROR com.intuit.karate - classpath:start/test.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 767, url: https://tek-insurance.azurewebsites.net/api/token, response: 
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+classpath:start/test.feature:10
+09:47:18.100 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:47:18.103 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1658076438102
+09:47:18.745 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:47:19.173 [main] DEBUG com.intuit.karate - request:
+1 > POST https://tek-insurance.azurewebsites.net/api/token
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 39
+1 > Host: tek-insurance.azurewebsites.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"admin"}
+
+09:47:19.960 [main] DEBUG com.intuit.karate - response time in milliseconds: 783
+1 < 404
+1 < Content-Length: 103
+1 < Content-Type: text/html
+1 < Date: Sun, 17 Jul 2022 16:47:17 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Set-Cookie: ARRAffinity=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+1 < Set-Cookie: ARRAffinitySameSite=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+
+09:47:19.963 [main] ERROR com.intuit.karate - src/test/java/start/test.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 783, url: https://tek-insurance.azurewebsites.net/api/token, response: 
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+src/test/java/start/test.feature:10
+09:47:20.403 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/start/test.feature
+09:47:39.755 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:47:40.521 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:47:40.993 [main] DEBUG com.intuit.karate - request:
+1 > POST https://tek-insurance.azurewebsites.net/api/token
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 39
+1 > Host: tek-insurance.azurewebsites.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"admin"}
+
+09:47:41.647 [main] DEBUG com.intuit.karate - response time in milliseconds: 650
+1 < 404
+1 < Content-Length: 103
+1 < Content-Type: text/html
+1 < Date: Sun, 17 Jul 2022 16:47:39 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Set-Cookie: ARRAffinity=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+1 < Set-Cookie: ARRAffinitySameSite=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+
+09:47:41.650 [main] ERROR com.intuit.karate - classpath:start/test.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 650, url: https://tek-insurance.azurewebsites.net/api/token, response: 
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+classpath:start/test.feature:10
+00:40:36.688 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:40:38.101 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:40:39.046 [main] DEBUG com.intuit.karate - request:
+1 > POST https://tek-insurance.azurewebsites.net/api/token
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 43
+1 > Host: tek-insurance.azurewebsites.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+{"username":"tek_admin","password":"admin"}
+
+00:40:40.110 [main] DEBUG com.intuit.karate - response time in milliseconds: 1052
+1 < 404
+1 < Content-Length: 103
+1 < Content-Type: text/html
+1 < Date: Mon, 18 Jul 2022 07:40:37 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Set-Cookie: ARRAffinity=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+1 < Set-Cookie: ARRAffinitySameSite=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+
+00:40:40.118 [main] ERROR com.intuit.karate - classpath:start/test.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1052, url: https://tek-insurance.azurewebsites.net/api/token, response: 
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+classpath:start/test.feature:10
+00:41:26.397 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:41:26.402 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1658130086401
+00:41:27.554 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:41:28.363 [main] DEBUG com.intuit.karate - request:
+1 > POST https://tek-insurance.azurewebsites.net/api/token
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 39
+1 > Host: tek-insurance.azurewebsites.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"admin"}
+
+00:41:29.351 [main] DEBUG com.intuit.karate - response time in milliseconds: 973
+1 < 404
+1 < Content-Length: 103
+1 < Content-Type: text/html
+1 < Date: Mon, 18 Jul 2022 07:41:26 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Set-Cookie: ARRAffinity=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+1 < Set-Cookie: ARRAffinitySameSite=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+
+00:41:29.360 [main] ERROR com.intuit.karate - src/test/java/start/test.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 973, url: https://tek-insurance.azurewebsites.net/api/token, response: 
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+src/test/java/start/test.feature:10
+00:41:30.112 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/start/test.feature
+00:47:49.657 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:47:50.719 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:47:51.503 [main] DEBUG com.intuit.karate - request:
+1 > POST https://tek-insurance.azurewebsites.net/api/token
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 53
+1 > Host: tek-insurance.azurewebsites.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+{"username":"supervisor","password":"tek_supervisor"}
+
+00:47:52.318 [main] DEBUG com.intuit.karate - response time in milliseconds: 808
+1 < 404
+1 < Content-Length: 103
+1 < Content-Type: text/html
+1 < Date: Mon, 18 Jul 2022 07:47:49 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Set-Cookie: ARRAffinity=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+1 < Set-Cookie: ARRAffinitySameSite=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+
+00:47:52.326 [main] ERROR com.intuit.karate - classpath:start/test.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 808, url: https://tek-insurance.azurewebsites.net/api/token, response: 
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+classpath:start/test.feature:10
+18:31:16.980 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:31:18.342 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:31:19.225 [main] DEBUG com.intuit.karate - request:
+1 > POST https://tek-insurance.azurewebsites.net/api/token
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 53
+1 > Host: tek-insurance.azurewebsites.net
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 > Accept-Encoding: gzip,deflate
+{"username":"supervisor","password":"tek_supervisor"}
+
+18:31:20.120 [main] DEBUG com.intuit.karate - response time in milliseconds: 879
+1 < 404
+1 < Content-Length: 103
+1 < Content-Type: text/html
+1 < Date: Tue, 19 Jul 2022 01:31:15 GMT
+1 < Server: Microsoft-IIS/10.0
+1 < X-Powered-By: ASP.NET
+1 < Set-Cookie: ARRAffinity=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+1 < Set-Cookie: ARRAffinitySameSite=c2dc5cdfd83d18a581d6889c06f1e64b4cf50672e89dc41e380fd2aab9a84769; Domain=tek-insurance.azurewebsites.net; Secure
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+
+18:31:20.128 [main] ERROR com.intuit.karate - classpath:start/test.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 879, url: https://tek-insurance.azurewebsites.net/api/token, response: 
+The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.
+classpath:start/test.feature:10
